@@ -1,0 +1,102 @@
+[
+  {
+    "title": "BuscoTrevelin",
+    "category": "Web / Marketplace",
+    "description": "App web (Marketplace) para la Oferta y Demanda de servicios locales en Trevelin (carpintería, mecánica, gastronomía, mandados, cabalgatas, etc.).",
+    "stack": ["Next.js", "Tailwind CSS", "Marketplace"],
+    "observation": "Funcionalidad básica desarrollada, pero no se lanzó al público.",
+    "liveUrl": "#",
+    "imagePath": "/img/proyects/buscotrevelin.png",
+    "active": false
+  },
+  {
+    "title": "MecanicaHUB",
+    "category": "Web / Red Social",
+    "description": "Web social para mecánicos: perfiles, manuales técnicos, intercambio de experiencias y recursos de la industria automotriz.",
+    "stack": ["Next.js", "Tailwind CSS", "Comunidad"],
+    "observation": "Solamente se llego a una idea de prototipo y arquitectura, no se desarrolló al 100%.",
+    "liveUrl": "#",
+    "imagePath": "/img/proyects/mecanicahub.png",
+    "active": false
+  },
+  {
+    "title": "Kitchen OS",
+    "category": "Web / Gastronomía (B2B)",
+    "description": "App web de gestión gastronómica que comunica al mesero con la cocina. Permite la toma de pedidos y su actualización en tiempo real.",
+    "stack": ["Next.js", "Tailwind CSS", "Real-Time"],
+    "observation": "Solo se profundizó en el prototipo de diseño y arquitectura de la app.",
+    "liveUrl": "#",
+    "imagePath": "/img/proyects/kitchenos.png",
+    "active": false
+  },
+  {
+    "title": "SmartMenu",
+    "category": "Web / Auto Pedidos (QR)",
+    "description": "App web de auto pedidos. El cliente escanea un código QR para elegir el menú y reemplazar las cartas físicas, mejorando la experiencia del usuario.",
+    "stack": ["Next.js", "Tailwind CSS", "QR Codes"],
+    "observation": "Se llego a desarrollar un prototipo funcional pero no se lanzó al público.",
+    "liveUrl": "#",
+    "imagePath": "/img/proyects/smartmenu.png",
+    "active": false
+  },
+  {
+    "title": "TrevelinTravel",
+    "category": "Web / Turismo",
+    "description": "Web de turismo enfocada en Trevelin - Chubut: promoción de paseos, cabalgatas, trekking y actividades locales.",
+    "stack": ["Next.js", "Tailwind CSS", "Mapbox/Leaflet"],
+    "observation": "Pausado por falta de financiamiento.",
+    "liveUrl": "#",
+    "imagePath": "/img/proyects/trevelintravel.png",
+    "active": false
+  },
+  {
+    "title": "CheVoy",
+    "category": "Móvil / Red Social",
+    "description": "App para conectar viajeros y mochileros con conductores que tienen lugares extra en sus autos. Incluye filtros de paridad, seguridad y GPS.",
+    "stack": ["React Native", "GPS/Maps", "Social"],
+    "observation": "Desarrollo pausado al 50%.",
+    "liveUrl": "#",
+    "imagePath": "/img/proyects/chevoy.png",
+    "active": false
+  },
+  {
+    "title": "GeoGrove",
+    "category": "Móvil / Automotriz",
+    "description": "App para Radio Car Android. Es un navegador GPS con funciones Off-Road y un reproductor de música integrados.",
+    "stack": ["React Native", "Android", "GPS/Offroad"],
+    "observation": "Solo se profundizó en el prototipo de diseño y arquitectura de la app.",
+    "liveUrl": "#",
+    "imagePath": "/img/proyects/geogroove.png",
+    "active": false
+  },
+  {
+    "title": "Tabernero",
+    "category": "Bot de Discord",
+    "description": "Bot con temática de rol para Discord, con sistemas de moderación, avisos y eventos de comunidad.",
+    "stack": ["Node.js", "Discord.js", "Discloud"],
+    "observation": "Bot activo en uso para un servidor de discord especial.",
+    "liveUrl": "#",
+    "imagePath": "/img/proyects/tabernero.png",
+    "active": true
+  },
+  {
+    "title": "Adolfito",
+    "category": "Bot de Discord",
+    "description": "Bot de moderación general para Discord. Gestiona eventos con asistencia y monitorea mensajes con patrones de spam.",
+    "stack": ["Node.js", "Discord.js", "Discloud"],
+    "observation": "Bot activo en uso para un servidor de discord especial.",
+    "liveUrl": "#",
+    "imagePath": "/img/proyects/adolfito.png",
+    "active": true
+  },
+  {
+    "title": "AlercesGO",
+    "category": "App Android",
+    "description": "Aplicación móvil para guiar a los visitantes por senderos autoguiados en la Comarca de los Alerces, con mapas offline y puntos de interés.",
+    "stack": ["Kotlin", "Andorid", "Turismo"],
+    "observation": "Se encuentra publicada en Google Play Store Beta. Su desarrollo fue pausado por falta de financiamiento.",
+    "liveUrl": "#",
+    "imagePath": "/img/proyects/alercesgo.png",
+    "active": true
+  }
+]

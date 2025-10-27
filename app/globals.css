@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #F5F5F5;
+  --foreground: #F5F5F5;
+}
+.michroma-regular {
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @theme inline {
@@ -10,17 +23,50 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-michroma: var(--font-michroma);
+  --font-inter: var(--font-inter);
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #F6F7FB;
+    --foreground: #2a2a2a;
   }
 }
-
-body {
+html {
+  scroll-behavior: smooth; /* ¡Añade esta línea! */
+}
+ body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", sans-serif;
+} 
+
+
+/* Oculta la letra inicialmente o cuando está saliendo */
+.letter {
+  display: inline-block; /* Para aplicar transformaciones */
+  position: relative; /* Si necesitas posicionamiento absoluto para algunos efectos */
+  opacity: 0;
+  transform: translateY(-20px) rotateX(90deg); /* Estado inicial o "out" */
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out; /* Transición por defecto */
+}
+
+/* Estado "detrás" - invisible pero listo para entrar */
+.letter.behind {
+  opacity: 0;
+  transform: translateY(20px) rotateX(-90deg);
+}
+
+/* Estado "entrando" */
+.letter.in {
+  opacity: 1;
+  transform: translateY(0) rotateX(0deg);
+}
+
+/* Estado "saliendo" */
+.letter.out {
+  opacity: 0;
+  transform: translateY(-20px) rotateX(90deg); /* La misma que la inicial para que "salga" hacia arriba */
 }
