@@ -79,7 +79,7 @@ const GraphicDesign = () => {
               key={index}
               className="              
                p-6 rounded-xl shadow-xl 
-                border border-gray-500 
+                border border-gray-500 text-gray-900 
                 hover:border-orange-500 transition duration-300 transform hover:-translate-y-1
               "
             >

@@ -72,10 +72,8 @@ const WebDevelopment = () => {
               key={index}
               className="              
                p-6 rounded-xl shadow-xl 
-                border border-gray-500
-                hover:border-orange-500 transition duration-300 transform hover:-translate-y-1
-                // SIN FONDO ESPECÍFICO (Asumo que el fondo es blanco/claro por defecto, si no, ajusta aquí)
-                // SIN COLOR DE TEXTO ESPECÍFICO (Asumo que es gris oscuro por defecto)
+                border border-gray-500 text-gray-900
+                hover:border-orange-500 transition duration-300 transform hover:-translate-y-1                
               "
             >
               <div className="flex items-center mb-3">
@@ -83,7 +81,7 @@ const WebDevelopment = () => {
                 <h3 className="text-xl font-bold ml-3">{service.title}</h3>
               </div>
               <p
-                className="text-gray-500 text-sm" // ⬅️ VUELTO a text-gray-500
+                className="text-gray-500 text-sm" 
                 dangerouslySetInnerHTML={{ __html: service.description }}
               />
             </div>
@@ -91,7 +89,7 @@ const WebDevelopment = () => {
         </div>
 
         {/* 2. NUEVO TEXTO: VALOR AGREGADO / ENFOQUE PRINCIPAL */}
-        <div className="text-center max-w-6xl mx-auto mb-4 text-gray-500"> {/* ⬅️ VUELTO a text-gray-500 */}
+        <div className="text-center max-w-6xl mx-auto mb-4 text-gray-500">
           <h3 className="text-xl font-bold mb-2">
             Desempeño, Escalabilidad y <span className="font-bold text-orange-500">Optimización por IA</span> 🚀
           </h3>
