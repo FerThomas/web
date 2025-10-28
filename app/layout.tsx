@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Michroma, Inter } from 'next/font/google';
-import Head from "next/head";
 
 const michroma = Michroma({
   subsets: ['latin'],
@@ -19,6 +18,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Fer Thomas | Web",
   description: "by FerThomas",
+  icons: {
+    icon: "/favicon.ico",       // favicon principal
+    shortcut: "/favicon.ico",   // usado por algunos navegadores
+    apple: "/favicon.ico",      // iOS / Safari
+  },
 };
 
 export default function RootLayout({
@@ -27,11 +31,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <Head>
-        {/* Favicon */}
-        <link rel="icon" href="/favicon.ico" />        
-      </Head>
+    <html lang="en">      
       <body
         className={`${michroma.variable}${inter.variable}antialiased`}
       >
