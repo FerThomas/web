@@ -64,7 +64,7 @@ const GraphicDesign = () => {
     >
       <div className="w-full max-w-7xl mx-auto">
         {/* TÍTULO PRINCIPAL: (Asumo que el color base viene del padre o de un layout) */}
-        <h2 className="text-4xl font-extrabold mb-2 text-center tracking-tight ">
+        <h2 className="text-4xl text-gray-900 font-extrabold mb-2 text-center tracking-tight ">
           {/* Añadido text-white aquí para asegurar contraste en fondos oscuros */}
           Diseño Gráfico
         </h2>

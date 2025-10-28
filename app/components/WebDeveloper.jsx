@@ -57,7 +57,7 @@ const WebDevelopment = () => {
     >
       <div className="w-full max-w-7xl mx-auto">
         {/* TÍTULO PRINCIPAL */}
-        <h2 className="text-4xl font-extrabold mb-2 text-center tracking-tight">
+        <h2 className="text-4xl text-gray-900 font-extrabold mb-2 text-center tracking-tight">
           Desarrollo Web de Próxima Generación
         </h2>
         <p className="text-xl text-gray-500 mb-10 text-center max-w-4xl mx-auto">
